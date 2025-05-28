@@ -10,7 +10,7 @@ export default {
       "2xl": "1536px",
     },
     colors: {
-      /* brown: "#53423e",
+      /* brown: "#53423e", 
       lightBrown: "#645550",
       darkBrown: "#2d2421",
       black: "#1e1917",
