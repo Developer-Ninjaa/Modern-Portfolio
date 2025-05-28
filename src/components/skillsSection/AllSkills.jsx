@@ -8,6 +8,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { DiMongodb } from "react-icons/di";
+import { SiVite } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 const skills = [
   {
@@ -29,7 +31,7 @@ const skills = [
   
   {
     skill: "Vite.js",
-    icon: FaReact,
+    icon: SiVite,
   },
   {
     skill: "Redux",
@@ -41,7 +43,7 @@ const skills = [
   },
   {
     skill: "Node.js",
-    icon: FaReact,
+    icon: FaNodeJs,
   },
   
   {
