@@ -31,8 +31,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Full Stack Developer <br /> with 2 years of
-        experience.
+        A Passionate Full Stack Developer,  Bridging Frontend Elegance with Backend Power. <br /> From UI to API—Crafting Full Stack
+        Solutions with Code, Coffee, and Curiosity.
       </motion.p>
     </div>
   );
