@@ -28,7 +28,6 @@ const skills = [
     skill: "ReactJS",
     icon: FaReact,
   },
-  
   {
     skill: "Vite.js",
     icon: SiVite,
