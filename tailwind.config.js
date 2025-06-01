@@ -40,6 +40,12 @@ export default {
       lightGrey: "#978580",
       darkGrey: "#3f4441",
     },
+    content: [
+    "./src/**/*.{js,jsx,ts,tsx}", // add this line
+  ],
+  theme: {
+    extend: {},
+  },
     extend: {
       boxShadow: {
         cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",

@@ -1,0 +1,96 @@
+/* Education.css */
+
+.education-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, bg-darkBrown);
+}
+
+.education-heading {
+  font-size: 3.75rem;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  color: rgb(21 209 233 / var(--tw-text-opacity, 1));
+  position: relative;
+}
+
+
+.timeline-elements {
+  background-color: darkorange;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(136, 20, 20, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-elements:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.vertical-timeline-element-content {
+  background-color: white;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: #1a202c;
+}
+
+.vertical-timeline-element-streamtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0.25rem;
+}
+
+.vertical-timeline-element--education p {
+  margin: 0.2rem 0;
+  color: black;
+  font-size: 0.95rem;
+}
+
+.IoMdSchool {
+  font-size: 140px;
+}
+
+/* Grade text */
+.timeline-elements p strong {
+  color: black;
+  margin-right: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .education-section {
+    padding: 3rem 1rem;
+  }
+
+  .education-heading {
+    font-size: 3.75rem;
+  }
+
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: black;
+    font-size: 20px;
+    font-weight: 50px;
+    height: 20px;
+  }
+
+  .timeline-elements {
+    padding: 1rem;
+  }
+
+  .vertical-timeline-element-title {
+    font-size: 1.1rem;
+  }
+}

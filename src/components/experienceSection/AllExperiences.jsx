@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
-  {
+{
     job: "Front-End Developer",
     company: "AnsrCoach",
     date: "May 2021 - July 2021",
@@ -15,6 +15,7 @@ const experiences = [
       "Generating new ideas for better user experience.",
     ],
   },
+
   {
     job: "React.JS Developer",
     company: "RmgX Technologies LLP",
