@@ -27,7 +27,7 @@ const educationData = [
     stream: "PCM",
     institution: "SDA Inter College, Roorkee, Uttarakhand",
     board: "ICSE",
-    duration: "2017 - 2018",
+    duration: "2016 - 2017",
     grade: "69%",
   },
 ];
