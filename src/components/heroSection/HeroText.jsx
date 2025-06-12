@@ -13,7 +13,7 @@ const HeroText = () => {
       >
         Hi,
       </motion.h2>
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=4200&pause=958&color=15BAFF&width=900&height=79&lines=I'm+Jaskaran+Singh.;A+Full+Stack+Developer.;Developer+Ninjaa." alt="Typing SVG" /></a>
+    <a className="typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=4200&pause=958&color=15BAFF&width=900&height=79&lines=I'm+Jaskaran+Singh.;A+Full+Stack+Developer.;Developer+Ninjaa." alt="Typing SVG" /></a>
       <motion.h1
         variants={fadeIn("right", 0.4)}
         initial="hidden"

@@ -1,5 +1,4 @@
-// Education.jsx
-//import React from "react";
+//import { React } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { IoMdSchool } from "react-icons/io";
@@ -43,7 +42,7 @@ const Education = () => {
             className="vertical-timeline-element--education"
             date={edu.duration}
             iconStyle={{ background: "rgb(251 151 24 / var(--tw-bg-opacity, 1))", color: "#fff" }}
-            icon={<IoMdSchool alt="School-Icon" style={{ width: "56px", height: "175px", marginLeft: "-29px", marginTop: "-90px" , borderRadius: "50%" }} />}
+            icon={<IoMdSchool alt="School-Icon" className="icon-responsive" style={{ width: "56px", height: "175px", marginLeft: "-29px", marginTop: "-90px" , borderRadius: "50%" }} />}
           >
             <div className="timeline-elements">
             <h3 className="vertical-timeline-element-title"><b>{edu.degree}</b></h3>

@@ -1,7 +1,6 @@
 import SingleSkill from "./SingleSkill";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
+import { FaJava } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -10,19 +9,19 @@ import { fadeIn } from "../../framerMotion/variants";
 import { DiMongodb } from "react-icons/di";
 import { SiVite } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { FaFigma } from "react-icons/fa";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
-  },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-  },
-  {
     skill: "JavaScript",
     icon: IoLogoJavascript,
+  },
+    {
+    skill: "Java",
+    icon: FaJava,
   },
   {
     skill: "ReactJS",
@@ -44,10 +43,25 @@ const skills = [
     skill: "Node.js",
     icon: FaNodeJs,
   },
-  
+  {
+    skill: "Postman",
+    icon: SiPostman,
+  },
+    {
+    skill: "Github",
+    icon: FaGithub,
+  },
   {
     skill: "MongoDB",
     icon: DiMongodb,
+  },
+    {
+    skill: "MySQL",
+    icon: DiMysql,
+  },
+    {
+    skill: "Figma",
+    icon: FaFigma,
   },
 ];
 

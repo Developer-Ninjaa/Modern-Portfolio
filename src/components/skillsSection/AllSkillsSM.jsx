@@ -8,6 +8,11 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
+import { SiPostman } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { FaFigma } from "react-icons/fa";
+
 
 const skills = [
   {
@@ -42,7 +47,23 @@ const skills = [
     {
       skill: "MongoDB",
       icon: DiMongodb,
-    },
+  },
+    {
+        skill: "Postman",
+        icon: SiPostman,
+      },
+        {
+        skill: "Github",
+        icon: FaGithub,
+      },
+        {
+        skill: "MySQL",
+        icon: DiMysql,
+      },
+        {
+        skill: "Figma",
+        icon: FaFigma,
+      },
 ];
 
 const AllSkillsSM = () => {
