@@ -16,7 +16,7 @@ const projects = [
     year: "Nov 2024",
     align: "left",
     image: "../../images/website-img-2.webp",
-    link: "https://jarvis-bot-voice-assistant.netlify.app/",
+    link: "https://jarvis-bot-voice-assistants.netlify.app/",
   },
   {
     name: "Youtube Automation",
