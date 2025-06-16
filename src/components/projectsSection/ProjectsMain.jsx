@@ -9,7 +9,7 @@ const projects = [
     year: "May 2024",
     align: "right",
     image: "../../images/website-img-1.jpg",
-    link: "#",
+    link: "https://expense-tracker-applicn.netlify.app/",
   },
   {
     name: "Jarvis Bot",
