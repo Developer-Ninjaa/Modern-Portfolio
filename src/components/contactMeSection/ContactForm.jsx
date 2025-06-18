@@ -6,6 +6,7 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState("");
+  const [isSent, setIsSent] = useState(false);
   const handleName = (e) => {
     setName(e.target.value);
   };
@@ -17,23 +18,32 @@ const ContactForm = () => {
   };
   const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
-      })
-      .then(
-        () => {
-          setEmail("");
-          setName("");
-          setMessage("");
-          setSuccess("Message Sent Succesfully");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
-  };
+  e.preventDefault();
+  console.log("Sending email...");
+  emailjs
+    .sendForm("service_mip8cy7", "template_tto1mvd", form.current, {
+      publicKey: "8OUr9dlO0cnWIJU_4",
+    })
+    .then(
+      (result) => {
+        console.log("SUCCESS!", result.text);
+        setEmail("");
+        setName("");
+        setMessage("");
+        setSuccess("Message Sent Successfully!");
+        setIsSent(true);
+        setTimeout(() => {
+          setSuccess("");
+          setIsSent(false); // ✅ reset button text
+        }, 6000);
+      },
+      (error) => {
+        console.log("FAILED...", error.text);
+        setSuccess("Failed to send message. Try again later.");
+      }
+    );
+};
+
 
   return (
     <div>
@@ -72,7 +82,7 @@ const ContactForm = () => {
           type="submit"
           className="w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500"
         >
-          Send
+          {isSent ? "Message Sent" : "Send"}
         </button>
       </form>
     </div>
